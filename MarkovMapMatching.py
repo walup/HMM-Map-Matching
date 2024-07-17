@@ -57,7 +57,6 @@ class MapGraph:
         
 
         #Draw the measurements
-        print(measurements)
         plt.plot(measurements[:,0], measurements[:,1], marker = "o", linestyle = "none", color = nodeColor, markersize = nodeSize)
         
 
